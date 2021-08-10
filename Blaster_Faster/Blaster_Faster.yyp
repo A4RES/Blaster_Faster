@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3eb0734f-1983-41d1-9e5f-971a750fd001",
+            "Value": {
+                "id": "5ed47255-7e0d-4bde-a300-ef4886d78718",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "409e6a19-3576-4ed2-add8-dae3a46b3733",
             "Value": {
                 "id": "bfbd07df-ad60-4e3a-9676-3e7a9102403b",
@@ -156,6 +164,14 @@
                 "id": "7a2cb4f6-d6e3-4bd2-9137-4f0d4b2dc8f6",
                 "resourcePath": "sprites\\s_enemy_laser\\s_enemy_laser.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "715724ec-ea47-4d01-b896-8ea3573a0611",
+            "Value": {
+                "id": "1262b8b1-d94e-409a-acd0-7a5007daae3f",
+                "resourcePath": "objects\\o_enemy_ship\\o_enemy_ship.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "b7601757-3c0e-459f-bcda-d37749301999",
+            "Value": {
+                "id": "df6f3e72-84b3-448f-a01e-ede62e55450c",
+                "resourcePath": "objects\\o_lazer\\o_lazer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "babbf599-1de2-49f5-b750-cef216e472c4",
             "Value": {
                 "id": "f5e2575e-b807-4bfd-8085-ea5a2be99f6f",
@@ -372,6 +396,30 @@
                 "id": "528b255c-3e16-4406-b41c-232d00518953",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e663e24e-d1c3-4276-add3-54777dc38bf2",
+            "Value": {
+                "id": "74ae20c2-01ad-4dbe-a3a5-5b09ec913dec",
+                "resourcePath": "objects\\o_powerup\\o_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7d2c644-a65e-4e86-a53d-1afa7e2a66c0",
+            "Value": {
+                "id": "e2351f05-b69c-40e9-848e-e1f2ce46e088",
+                "resourcePath": "objects\\o_enemy_lazer\\o_enemy_lazer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee6d1d8a-aa03-459a-9364-7cb1e8883c08",
+            "Value": {
+                "id": "c47fa356-6e28-47fd-8498-d1fcb54a6604",
+                "resourcePath": "objects\\o_ship\\o_ship.yy",
+                "resourceType": "GMObject"
             }
         },
         {
