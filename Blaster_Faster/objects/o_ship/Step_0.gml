@@ -9,9 +9,10 @@ direction = mouse_directiton;
 	speed = 0;
 }
 */
-
+ 
 // makes a thrust for the player ship
 var thrust = mouse_check_button(mb_right);
+// when right mouse button is clicked, the ship will look like its boosting
 image_index = thrust;
 
 if(mouse_check_button(mb_right)) {
