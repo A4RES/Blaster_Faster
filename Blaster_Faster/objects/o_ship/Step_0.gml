@@ -21,6 +21,11 @@ if(thrust) {
 		if (speed > max_speed){
 			speed = max_speed; 
 		} 
+	var offset = 4;
+	var length = 16
+	var _x = x + lengthdir_x(length, image_angle);
+	var _y = y+ lengthdir_x(length, image_angle);
+	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 } else {
 	friction = friction_ammount;
 }
