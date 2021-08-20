@@ -13,6 +13,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "dd94b654-7d0b-4c8a-8abd-0059337c0779"
+        },
+        {
+            "id": "e71a8fd3-bc5f-4ab5-b6a3-79ffa50ea327",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "dd94b654-7d0b-4c8a-8abd-0059337c0779"
+        },
+        {
+            "id": "0dbb4794-55c0-4c78-a693-789a01b6daf6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "dd94b654-7d0b-4c8a-8abd-0059337c0779"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "random_range(0.075, 0.15)",
+            "value": "random_range(0.075, 0.15);",
             "varName": " fade_speed",
             "varType": 4
         },
@@ -56,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "random_range(0.25, 1)",
+            "value": "random_range(0.25, 1);",
             "varName": "scale",
             "varType": 4
         }

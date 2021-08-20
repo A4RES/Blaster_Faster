@@ -10,6 +10,8 @@ direction = mouse_directiton;
 	speed = 0;
 }
  */
+
+ 
  
 // makes a thrust for the player ship
 var thrust = mouse_check_button(mb_right);
@@ -21,11 +23,16 @@ if(thrust) {
 		if (speed > max_speed){
 			speed = max_speed; 
 		} 
-	var offset = 4;
-	var length = 16
-	var _x = x + lengthdir_x(length, image_angle);
-	var _y = y+ lengthdir_x(length, image_angle);
+	var offset = random_range(-4,4);
+	var length = -2;
+	var _x = x + lengthdir_x( length, image_angle) + offset;
+	var _y = y+ lengthdir_x(length, image_angle) + offset;
 	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 } else {
 	friction = friction_ammount;
+}
+
+var fire_lazer = mouse_check_button_pressed(mb_left);
+if(fire_lazer){
+	create_lazer();
 }

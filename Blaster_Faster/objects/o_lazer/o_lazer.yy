@@ -1,10 +1,19 @@
 {
-    "id": "b7601757-3c0e-459f-bcda-d37749301999",
+    "id": "670fd587-81df-4c65-94a0-fbbc63ab1ada",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_lazer",
     "eventList": [
-        
+        {
+            "id": "6b4559b7-0c46-44f1-84e4-7b6ca72a89c9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
+            "m_owner": "670fd587-81df-4c65-94a0-fbbc63ab1ada"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
