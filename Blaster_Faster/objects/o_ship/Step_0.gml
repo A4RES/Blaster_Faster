@@ -1,8 +1,12 @@
-/// @description controls and thrust 
+/// @description controls, thrust and lasers  
 // sets sprite to face mouse 
 var mouse_directiton = point_direction(x, y, mouse_x, mouse_y);
 image_angle = mouse_directiton;
 direction = mouse_directiton;
+var offset = random_range(-4,4);
+var length = -2;
+var _x = x + lengthdir_x( length, image_angle) + offset;
+var _y = y + lengthdir_x(length, image_angle) + offset;
 
 /*if (mouse_check_button(mb_left)){
 	speed = max_speed;
@@ -22,11 +26,7 @@ if(thrust) {
 		motion_add(image_angle, acceleration);
 		if (speed > max_speed){
 			speed = max_speed; 
-		} 
-	var offset = random_range(-4,4);
-	var length = -2;
-	var _x = x + lengthdir_x( length, image_angle) + offset;
-	var _y = y+ lengthdir_x(length, image_angle) + offset;
+		} 	
 	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 } else {
 	friction = friction_ammount;
